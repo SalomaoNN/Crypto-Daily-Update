@@ -27,7 +27,7 @@ Este projeto tem como objetivo desenvolver um processo de ETL utilizando as ferr
 - End: Utiliza DummyOperator para indicar fim do processo de ETL.
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, e no caso de uso windows, configurar Docker para que os containers Airflow rodem apropriadamente. Após configuração do Docker execute o comando, dentro da pasta do projeto, no terminal. é necessário atmbém arquivo JSON de credenciais ao BigQuery, que deverá ser colado na pasta do projeto e ter seu camainho indicado em PATH.
+Para rodar o repositório é necessário clonar o mesmo, e no caso de uso windows, configurar Docker para que os containers Airflow rodem apropriadamente. Após configuração do Docker execute o comando, dentro da pasta do projeto, no terminal. é necessário arquivo JSON de credenciais ao BigQuery, que deverá ser colado na pasta do projeto e ter seu caminho indicado em PATH.
 ```
 <linha de comando>
 docker-compose up
